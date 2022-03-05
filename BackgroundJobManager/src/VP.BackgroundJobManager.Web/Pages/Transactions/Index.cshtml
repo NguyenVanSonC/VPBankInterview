@@ -1,0 +1,27 @@
+﻿@page
+@using Microsoft.AspNetCore.Mvc.Localization
+@using VP.BackgroundJobManager.Localization
+@model VP.BackgroundJobManager.Web.Pages.IndexModel
+@inject IHtmlLocalizer<BackgroundJobManagerResource> L
+
+@section scripts
+{
+    <abp-script src="/Pages/Transactions/index.js" />
+}
+<abp-card>
+    <abp-card-header>
+        <h2>@L["Transactions"]</h2>
+    </abp-card-header>
+    <abp-card-body>
+        <abp-table striped-rows="true" id="TransactionsTable">
+            <thead>
+                <tr>
+                    <th>@L["AccountNumber"]</th>
+                    <th>@L["Amount"]</th>
+                    <th>@L["Description"]</th>
+                    <th>@L["CreationTime"]</th>
+                </tr>
+            </thead>
+        </abp-table>
+    </abp-card-body>
+</abp-card>
