@@ -70,7 +70,7 @@ namespace VP.BackgroundJobManager
         /// Đọc dữ liệu từ file
         /// Created By: NVSon(05/03/2022)
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Danh sách giao dịch đọc được</returns>
         private async Task<List<TransactionDto>> ReadAsync()
         {
             string path = $"{Directory.GetCurrentDirectory()}/CSVStorageFile/Transaction.csv";
