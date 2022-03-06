@@ -10,3 +10,6 @@ Khai báo sử dụng hangfire worker
 
 ![v3](https://user-images.githubusercontent.com/39305573/156911609-63f1f9eb-588a-435b-bef7-127220e77c69.PNG)
 
+
+Giao diện danh sách giao dịch cung cấp cho người dùng
+![v1](https://user-images.githubusercontent.com/39305573/156911643-ba126a11-4f68-4f9f-a8a3-625db0f2fcd0.PNG)
