@@ -22,8 +22,14 @@ namespace VP.BackgroundJobManager
     {
         #region Khai báo các biến injection dependency
 
+        /// <summary>
+        /// Repository thao tác với database của đối tượng giao dịch
+        /// </summary>
         public readonly ITransactionRepository _transactionRepository;
 
+        /// <summary>
+        /// Khai báo biến mapping các object của module appservice
+        /// </summary>
         public readonly IObjectMapper<BackgroundJobManagerApplicationModule> _objectMapper;
 
         #endregion
