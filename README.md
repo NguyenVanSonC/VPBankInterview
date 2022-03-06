@@ -7,4 +7,6 @@ B2: Migration và updateDb
 
 Mô tả:
 Khai báo sử dụng hangfire worker
+
 ![v3](https://user-images.githubusercontent.com/39305573/156911609-63f1f9eb-588a-435b-bef7-127220e77c69.PNG)
+
