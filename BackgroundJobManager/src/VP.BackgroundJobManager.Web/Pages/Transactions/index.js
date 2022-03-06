@@ -18,6 +18,10 @@
     };
 
     var dataTable = $('#TransactionsTable').DataTable(abp.libs.datatables.normalizeConfiguration({
+        serverSide: true,
+        paging: true,
+        order: [[1, "asc"]],
+        searching: true,
         ajax: abp.libs.datatables.createAjax(vp.transactionManager.transaction.getList, inputAction, responseCallback),
         columnDefs: [
             { data: "accountNumber" },
