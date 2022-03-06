@@ -9,7 +9,6 @@ namespace VP.BackgroundJobManager
 {
     /// <summary>
     /// Dto sử dụng lấy thông tin giao dịch
-    /// Created By: NVSon(05/03/2022)
     /// </summary>
     public class TransactionDto : EntityDto<Guid>
     {

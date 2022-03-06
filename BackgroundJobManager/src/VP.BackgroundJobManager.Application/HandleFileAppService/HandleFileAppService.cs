@@ -16,7 +16,6 @@ namespace VP.BackgroundJobManager
 {
     /// <summary>
     /// Class Service xử lý đọc dữ liệu giao dịch từ file
-    /// Created By: NVSon(05/03/2022)
     /// </summary>
     public class HandleFileAppService : ITransientDependency
     {
@@ -55,7 +54,7 @@ namespace VP.BackgroundJobManager
 
         /// <summary>
         /// Hàm thực thi đọc dữ liệu giao dịch từ file và thêm mới vào db
-        /// Created By: NVSon(05/03/2022)
+        
         /// </summary>
         /// <returns></returns>
         public async Task ExecuteAsync()
@@ -74,7 +73,7 @@ namespace VP.BackgroundJobManager
 
         /// <summary>
         /// Đọc dữ liệu từ file
-        /// Created By: NVSon(05/03/2022)
+        
         /// </summary>
         /// <returns>Danh sách giao dịch đọc được</returns>
         private async Task<List<TransactionDto>> ReadAsync()

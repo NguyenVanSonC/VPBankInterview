@@ -14,7 +14,6 @@ namespace Vp.TransactionManager
     /// Định nghĩa các hàm xử lý nghiệp vụ liên quan đến giao dịch
     /// Kế thừa CrudAppService sử dụng các hàm Crud cơ bản:(thêm, sửa, xóa,..)
     /// PagedAndSortedResultRequestDto sử dụng phân trang
-    /// Created By: NVSon(05/03/2022)
     /// </summary>
     public class TransactionAppService : CrudAppService<Transaction, TransactionDto, Guid,PagedAndSortedResultRequestDto>, ITransactionAppService
     {
